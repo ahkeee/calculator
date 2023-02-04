@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #4D4D4D;
+    width: 350px;
+    height: 460px;
+    border-radius: 25px;
+}
+
+#inputDisplay {
+    background-color: #DAECB0;
+    width: 305px;
+    height: 80px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.numbers{
+    margin-left: 5px;
+}
+
+button {
+    border: none;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #808080;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#clear {
+    background-color: #B26667;
+}
+
+.operator, .equals {
+    background-color: #A2C5CC;
+}
+
+#inputDisplay {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3rem;
+    padding-right: 10px;
+}
