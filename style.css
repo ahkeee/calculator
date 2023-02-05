@@ -57,6 +57,18 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #808080ad;
+}
+
+.operator:hover, .equals:hover {
+    background-color: #a2c5ccbb;
+}
+
+#clear:hover {
+    background-color: #b26667c6;
+}
+
 #clear {
     background-color: #B26667;
 }
